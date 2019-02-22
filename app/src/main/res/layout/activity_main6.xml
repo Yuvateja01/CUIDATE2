@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/back"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp"
+        android:text="Carry a pepper spray with you, always and keep it handy. Don’t tuck it too low in your bag.
+Hold your bag as tightly as you can when you are taking public transport. You can use it to hit your predator
+When you are walking on a road, keep your mobile phone handy but avoid using it. Being on the phone makes you less alert.
+ When you are travelling in an auto alone, make sure you share the auto number with someone in your family even if it’s during the day."
+        android:textSize="20sp" />
+
+</RelativeLayout>
